@@ -6,7 +6,7 @@ export CLICOLOR="xterm-color"
 export LSCOLORS="gxfxcxdxbxegedabagacad"
 declare PROMPT_COMMAND="history -a;history -r"
 
-if [[ "xterm screen rxvt cygwin" == *"$TERM"* ]] ; then
+if [[ "xterm-256color xterm screen rxvt cygwin" == *"$TERM"* ]] ; then
     bind '"\e[B": history-search-forward'
     bind '"\e[A": history-search-backward'
     set show-all-if-ambiguous on

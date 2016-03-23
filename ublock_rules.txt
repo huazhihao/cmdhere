@@ -1,5 +1,13 @@
-www.inoreader.com###reader_pane > .ad_title_centered.ad_title
-www.inoreader.com###reader_pane > .sinner.ad_size_leaderboard.leaderboard_ad.block_article_ad
-www.inoreader.com###all_gad_6125
-www.inoreader.com###consent_bbb
-www.inoreader.com###consent_proofy
+inoreader.com###all_gad_6125
+inoreader.com###consent_bbb
+inoreader.com###consent_proofy
+inoreader.com###reader_pane > .ad_title_centered.ad_title
+inoreader.com###reader_pane > .sinner.ad_size_leaderboard.leaderboard_ad.block_article_ad
+inoreader.com###sb_rp_upgrade
+inoreader.com##.ad_footer_remove
+inoreader.com##.ad_title
+inoreader.com##.avs_iframe
+inoreader.com##.block_article_ad
+inoreader.com##.inner_ad
+inoreader.com##.sinner_container
+inoreader.com##div#sinner_container

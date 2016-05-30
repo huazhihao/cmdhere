@@ -2,8 +2,7 @@ alias ls='ls --color=auto'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
-export CLICOLOR="xterm-color"
-export LSCOLORS="gxfxcxdxbxegedabagacad"
+eval `dircolors`
 declare PROMPT_COMMAND="history -a;history -r"
 
 if [[ "xterm-256color xterm screen rxvt cygwin" == *"$TERM"* ]] ; then
